@@ -3,8 +3,7 @@
 body{
     background-color: #1A1A1A;
     width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     color: white;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -23,4 +22,15 @@ a
 {
     outline: none;
     text-decoration: none;
+}
+
+p{
+    font-size: 18px;
+}
+
+article
+{
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
 }
